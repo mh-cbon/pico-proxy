@@ -1,11 +1,11 @@
 'use strict';
-var gulp = require('gulp');
-var eslint = require('gulp-eslint');
-var excludeGitignore = require('gulp-exclude-gitignore');
-var mocha = require('gulp-mocha');
-var istanbul = require('gulp-istanbul');
-var nsp = require('gulp-nsp');
-var plumber = require('gulp-plumber');
+var gulp = require('gulp'),
+  eslint = require('gulp-eslint'),
+  excludeGitignore = require('gulp-exclude-gitignore'),
+  mocha = require('gulp-mocha'),
+  istanbul = require('gulp-istanbul'),
+  nsp = require('gulp-nsp'),
+  plumber = require('gulp-plumber');
 
 gulp.task('static', function () {
   return gulp.src('**/*.js')

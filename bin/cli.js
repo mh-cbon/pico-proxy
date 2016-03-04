@@ -1,10 +1,11 @@
 #!/usr/bin/env node
+/*eslint-env es6*/
 'use strict';
 
 var meow = require('meow'),
-    picoProxy = require('../lib');
+  picoProxy = require('../lib'),
 
-var cli = meow(`
+  cli = meow(`
   Usage
     $ pico-proxy
 
